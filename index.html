@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ian Spark</title>
+    <link rel="shortcut icon" href="S.png" type="image/x-icon">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div class="content">
+        <header id="header">
+            <div class="logo">Ian Spark</div>
+            <nav>
+                <button class="mobile-menu-btn" id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero" id="home">
+            <h1>Crafting Digital Excellence</h1>
+            <p class="subtitle">I'm Ian Spark, a full-stack developer specializing in web applications, AI integrations, and cross-platform solutions.</p>
+            <div class="btn-group">
+                <a href="#work" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </section>
+        
+        <section id="work">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">AI-Powered Chatbot</h3>
+                    <p>An intelligent chatbot for e-commerce platforms, leveraging AI and NLP to enhance customer interactions.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Next.js</span>
+                        <span class="project-tag">OpenAI API</span>
+                        <span class="project-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Cross-Platform Mobile App</h3>
+                    <p>A React Native application with seamless authentication and real-time database integration.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">React Native</span>
+                        <span class="project-tag">Firebase</span>
+                        <span class="project-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Job Application Portal</h3>
+                    <p>A full-stack web app for job applications, featuring authentication, user roles, and dynamic job postings.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Next.js</span>
+                        <span class="project-tag">Auth.js</span>
+                        <span class="project-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">AI-Assisted Learning Platform</h3>
+                    <p>A web app that helps users improve their vocabulary with AI-assisted word definitions and pronunciation guides.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Next.js</span>
+                        <span class="project-tag">AI/ML</span>
+                        <span class="project-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Development</h3>
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">AI/ML</span>
+                        <span class="skill-tag">Chatbot Development</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Cross-Platform & UI/UX</h3>
+                    <div class="skills">
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe After Effects</span>
+                        <span class="skill-tag">Motion Graphics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Ian Spark, a developer with 3 years of experience in building smart and scalable digital solutions. I specialize in full-stack web development, AI integration, and cross-platform applications.</p>
+                    <p>My work focuses on creating high-performance, user-centric applications that leverage modern web technologies. When I’m not coding, I’m exploring new frameworks, contributing to open-source projects, or refining my skills in AI and automation.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ianspark002@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+25475850370</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="4" placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Ian Spark</div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#work">Work</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="copyright">
+                    © 2025 Ian Spark. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <button id="back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
